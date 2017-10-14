@@ -6,7 +6,7 @@
     "boolean-html-js-exercises": "./bin/cli.js"
   },
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": " jest",
     "dev": "cross-env NODE_ENV=dev webpack-dev-server",
     "dev:cli": "cross-env NODE_ENV=dev node ./bin/cli.js",
     "tdd": "cross-env NODE_PATH=./ jest --watch --verbose",
