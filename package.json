@@ -10,7 +10,8 @@
     "dev": "cross-env NODE_ENV=dev webpack-dev-server",
     "dev:cli": "cross-env NODE_ENV=dev node ./bin/cli.js",
     "tdd": "cross-env NODE_PATH=./ jest --watch --verbose",
-    "test": "cross-env NODE_PATH=./ jest --coverage --verbose"
+    "test": "cross-env NODE_PATH=./ jest --coverage --verbose",
+    "postinstall": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
